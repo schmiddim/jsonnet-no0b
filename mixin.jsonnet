@@ -1,13 +1,21 @@
 local base = import 'github.com/oliver006/redis_exporter/contrib/redis-mixin/mixin.libsonnet';
-
 local redis = base {
-  _config+:: {
-    redisConnectionsThreshold: '100000',
-  },
+  redisConnectionsThreshold: '100',
+  redisExporterSelector: 'job="redis"',
 };
-
 {
-  prometheusAlerts: {
+
+  apiVersion: 'monitoring.coreos.com/v1',
+  kind: 'Prometheus',
+  metadata: {
+    name: 'redis-alerts',
+    namespace: 'monitoring',
+    labels: {
+      generated: 'by-jsonnet',
+
+    },
+  },
+  spec: {
     groups: [
       {
         name: 'redis',
