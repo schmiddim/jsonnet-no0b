@@ -1,0 +1,25 @@
+# Vendor dependencies (managed by jb)
+vendor/
+
+# Output files
+*.json
+*.yaml
+*.yml
+
+# Editors / OS
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+
+alerts.yaml
