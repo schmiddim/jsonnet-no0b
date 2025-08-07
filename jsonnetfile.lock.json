@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/google/jsonnet.git",
+          "subdir": "stdlib/"
+        }
+      },
+      "version": "7d1cbf8e69bc8b28e0405080771ccd4da36ac716",
+      "sum": "MQ5UO/OzKGaVAIpuQ/7GkDJgd2mXXldRnQJ0lqcX0tg="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/grafonnet-lib.git",
+          "subdir": "grafonnet"
+        }
+      },
+      "version": "a1d61cce1da59c71409b99b5c7568511fec661ea",
+      "sum": "342u++/7rViR/zj2jeJOjshzglkZ1SY+hFNuyCBFMdc="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "grafana-builder"
+        }
+      },
+      "version": "da2e332f4ad19bc0e808fb70fcde951b0d9041e1",
+      "sum": "G7B6E5sqWirDbMWRhifbLRfGgRFbIh9WCYa6X3kMh6g="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "mixin-utils"
+        }
+      },
+      "version": "da2e332f4ad19bc0e808fb70fcde951b0d9041e1",
+      "sum": "VAik6Sh5MD5H1Km1gSIXG4rwQ4m4zyw7odP5TKu3bGo="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/oliver006/redis_exporter.git",
+          "subdir": "contrib/redis-mixin"
+        }
+      },
+      "version": "3753f651810803f34dfd8b1ee2f0b444a7f0133d",
+      "sum": "yi+G2aAp1xtaoovHwh9SKNa92wT5VQ7WVD7WbbnH3SQ="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/thanos-io/thanos.git",
+          "subdir": "mixin"
+        }
+      },
+      "version": "8d77519d03de034b117d8896c5ccdb22c4061ec7",
+      "sum": "ieCD4eMgGbOlrI8GmckGPHBGQDcLasE1rULYq56W/bs="
+    }
+  ],
+  "legacyImports": false
+}

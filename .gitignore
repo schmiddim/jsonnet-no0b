@@ -23,3 +23,5 @@ vendor/
 
 
 alerts.yaml
+!jsonnetfile.json
+!jsonnetfile.lock.json
